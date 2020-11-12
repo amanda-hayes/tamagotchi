@@ -7,7 +7,7 @@
 
 Let's use our front-end web development skills to create a "living" pet! We'll use HTML, CSS, and JavaScript to interact with our pet.
 
-##### Here is a [live example ](https://starter-code.madeline.vercel.app/) of what we are going to build
+#### Here is a [live example ](https://starter-code.madeline.vercel.app/) of what we are going to build
 
 
 ## Learning Objectives
