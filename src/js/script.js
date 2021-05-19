@@ -25,6 +25,33 @@ CACHED DOM NOTES
 /* ======================
 CREATE Tamagotchi
 =========================*/
+class Tamagotchi {
+  constructor(name, hunger, sleepiness, boredom, age) {
+    this.name = name;
+    this.hunger = hunger;
+    this.sleepiness = sleepiness;
+    this.boredom = boredom;
+    this.age = age;
+  }
+
+  updateCurrentStats() {
+    
+  }
+
+  eat() {
+    return this.hunger() + 1;
+  }
+
+  sleep() {
+    return this.sleepiness - 1;
+  }
+
+  play() {
+    return this.boredom - 1;
+  }
+}
+
+const ernie = new Tamagotchi("ernie", 1, 1, 1, 0);
 
 /* ======================
 GLOBAL VARS
@@ -37,3 +64,8 @@ FUNCTIONS
 /* =============================
 EVENT LISTENERS
 ============================= */
+let age = Tamagotchi.age {
+    if (Tamagotchi.age == 5) {
+
+    }
+}
