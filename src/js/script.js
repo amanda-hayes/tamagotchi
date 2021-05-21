@@ -19,7 +19,7 @@ Tamagotchi
 // - Your Tamagotchi should append itself to the dom
 
 /* ======================
-CACHED DOM NOTES
+CACHED DOM NODES
 =========================*/
 
 /* ======================
@@ -37,21 +37,25 @@ class Tamagotchi {
   updateCurrentStats() {
     
   }
+  
+  birth() {
+    const div = document.createElement("div");
+  }
 
   eat() {
-    return this.hunger() + 1;
+    return this.hunger++;
   }
 
   sleep() {
-    return this.sleepiness - 1;
+    return this.sleepiness--;
   }
 
   play() {
-    return this.boredom - 1;
+    return this.boredom--;
   }
 }
 
-const ernie = new Tamagotchi("ernie", 1, 1, 1, 0);
+const firstPet = new Tamagotchi("ernie", 1, 1, 1, 0);
 
 /* ======================
 GLOBAL VARS
